@@ -16,8 +16,7 @@ jobs:
             - name: show os
               shell: bash
               run: echo "This job is running on an windows runner" 
-            - name: multiline 
-              shell: cmd 
+            - name: multiline  
               run: |
                ver
     mac-echo:
@@ -28,4 +27,3 @@ jobs:
             - name: multiline  
               run: |
                sw_vers           
-
