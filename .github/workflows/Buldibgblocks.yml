@@ -1,12 +1,12 @@
 name: BuildingBlocks
 run-name: ${{github.actor}} is deploying
-on: [push,workflow_dispatch]
+on: [workflow_dispatch]
 jobs:
     echo-hello:
         runs-on: ubuntu-latest
         steps: 
             - name: echo-hello
-              run: ech "Hello World"          
+              run: echo "Hello World"          
     echo-goodbye:
         runs-on: ubuntu-latest
         steps:
