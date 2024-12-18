@@ -12,8 +12,8 @@ jobs:
             - name: Setup node
               run:
                 |
-                 cd 04-using-actions
-                 npm 
+                 cd 04-using-actions\my-react-app
+                 npm ci
                  
 
                   
