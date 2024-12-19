@@ -8,5 +8,5 @@ jobs:
     Hello-world:
         runs-on: ubuntu-latest
         steps:
-            - run: echo "I am running beacuse the repo events.........."            
+            - run: echo "I am running beacuse the repo events........"            
 
