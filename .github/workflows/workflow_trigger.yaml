@@ -1,4 +1,4 @@
-name: workflow-run
+name: Firstworkflow
 on: 
     workflow_run:
         workflows: [Repo-events]
