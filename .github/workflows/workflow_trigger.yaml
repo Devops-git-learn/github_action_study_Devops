@@ -1,7 +1,7 @@
-name: Firstworkflow
+name: workflow-run
 on: 
     workflow_run:
-        workflows: [Repo-events]
+        workflows: [Firstworkflow]
         types:
             - completed
 jobs:
