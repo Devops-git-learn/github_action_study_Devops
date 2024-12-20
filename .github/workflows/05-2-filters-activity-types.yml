@@ -1,0 +1,12 @@
+name: 05-02-Event Filters and activity types
+on: 
+    pull_request:
+        types: [closed]
+        branches: 
+             - main 
+    workflow_dispatch:                    
+jobs:
+    echo:
+        runs-on: ubuntu-latest
+        steps:
+            - run: echo "Running whenever PR is opened Or synchronised and based branch is main" 
